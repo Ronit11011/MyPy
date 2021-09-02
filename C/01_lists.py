@@ -14,6 +14,6 @@ a[1]=20
 print(a)
 
 # diferent types of the elements can be stored in the sam list!
-b=[12,"",12.34,True]
+b=[12,"hello",12.34,True]
 print(b)
 print(*b)
