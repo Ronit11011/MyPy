@@ -1,0 +1,11 @@
+# an attribute that belong to the cladss rather than a single object
+class employee:
+    company="Google"
+
+a=employee()
+b=employee()
+print(a.company)
+print(b.company)
+employee.company="Tesla"
+print(a.company)    #name of company changed
+print(b.company)
